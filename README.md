@@ -1,2 +1,4 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/klixen5/fullstack-javascript-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/klixen5/fullstack-javascript-project-46/actions)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=klixen5_fullstack-javascript-project-46&metric=coverage)](https://sonarcloud.io/summary/new_code?id=klixen5_fullstack-javascript-project-46)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=klixen5_fullstack-javascript-project-46&metric=bugs)](https://sonarcloud.io/summary/new_code?id=klixen5_fullstack-javascript-project-46)
