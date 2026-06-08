@@ -9,6 +9,8 @@ export default [
             globals: {
                 console: "readonly",
                 process: "readonly",
+                ...globals.node,
+                ...globals.jest
             },
         },
     },
