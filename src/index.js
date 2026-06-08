@@ -28,10 +28,10 @@ const genDiff = (filepath1, filepath2, format) => {
         else if (!Object.hasOwn(parse2, key)) {
             result.push(`  - ${key}: ${parse1[key]}`)
         }
-        else if (parse1[key] !== parse2[key]) {
-            result.push(`  - ${key}: ${parse1[key]}\n  + ${key}: ${parse2[key]}`)
-        } else {
+        else if (parse1[key] === parse2[key]) {
             result.push(`    ${key}: ${parse1[key]}`)
+        } else {
+            result.push(`  - ${key}: ${parse1[key]}\n  + ${key}: ${parse2[key]}`)
         }
     })
     result.push('}')
