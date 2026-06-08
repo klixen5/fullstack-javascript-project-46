@@ -26,6 +26,7 @@
   "homepage": "https://github.com/klixen5/fullstack-javascript-project-46#readme",
   "dependencies": {
     "commander": "^15.0.0",
+    "js-yaml": "^4.2.0",
     "lodash": "^4.18.1"
   },
   "devDependencies": {

@@ -3,3 +3,10 @@
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=klixen5_fullstack-javascript-project-46&metric=coverage)](https://sonarcloud.io/summary/new_code?id=klixen5_fullstack-javascript-project-46)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=klixen5_fullstack-javascript-project-46&metric=bugs)](https://sonarcloud.io/summary/new_code?id=klixen5_fullstack-javascript-project-46)
 [![start](https://github.com/klixen5/fullstack-javascript-project-46/actions/workflows/start.yml/badge.svg)](https://github.com/klixen5/fullstack-javascript-project-46/actions/workflows/start.yml)
+
+
+# JSON
+[![asciicast](https://asciinema.org/a/6TIR7sv6lmYVEKi5.svg)](https://asciinema.org/a/6TIR7sv6lmYVEKi5)
+
+# YAML
+[![asciicast](https://asciinema.org/a/OV7TDrbJ8Os5dy1s.svg)](https://asciinema.org/a/OV7TDrbJ8Os5dy1s)
