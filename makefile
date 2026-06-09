@@ -1,5 +1,5 @@
 lint:
-	npx lint .
+	npx eslint .
 
 test:
 	npx jest
