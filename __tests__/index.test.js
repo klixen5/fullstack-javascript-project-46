@@ -5,7 +5,7 @@ import { readFileSync } from 'node:fs'
 import path from 'node:path'
 
 const dirname = import.meta.dirname
-let result1, result2, result3
+let result1, result2, result3, result4
 let json1, json2, json3, json4
 let yaml1, yaml2, yaml3, yaml4, yaml5
 
@@ -13,6 +13,7 @@ beforeAll(() => {
     result1 = readFileSync(path.join(dirname, '__fixtures__', 'result1.txt'), 'utf-8').trim()
     result2 = readFileSync(path.join(dirname, '__fixtures__', 'result2.txt'), 'utf-8').trim()
     result3 = readFileSync(path.join(dirname, '__fixtures__', 'result3.txt'), 'utf-8').trim()
+    result4 = readFileSync(path.join(dirname, '__fixtures__', 'result4.txt'), 'utf-8').trim()
     json1 = path.join(dirname, '__fixtures__', 'json', 'file1.json')
     json2 = path.join(dirname, '__fixtures__', 'json', 'file2.json')
     json3 = path.join(dirname, '__fixtures__', 'json', 'file3.json')
@@ -34,6 +35,10 @@ describe('gendiff', () => {
         expect(gendiff(json3, json4, 'plain')).toBe(result3)
     })
 
+    test('json-json', () => {
+        expect(gendiff(json3, json4, 'json')).toBe(result4)
+    })
+
     test('yaml-stylish', () => {
         expect(gendiff(yaml1, yaml2, 'stylish')).toBe(result1)
         expect(gendiff(yaml1, yaml3, 'stylish')).toBe(result1)
@@ -42,5 +47,9 @@ describe('gendiff', () => {
 
     test('yaml-plain', () => {
         expect(gendiff(yaml4, yaml5, 'plain')).toBe(result3)
+    })
+
+    test('yaml-json', () => {
+        expect(gendiff(yaml4, yaml5, 'json')).toBe(result4)
     })
 })

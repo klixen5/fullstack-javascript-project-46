@@ -17,3 +17,6 @@
 # Формат plain
 [![asciicast](https://asciinema.org/a/sF4CqqWs3Ys1WnsU.svg)](https://asciinema.org/a/sF4CqqWs3Ys1WnsU)
 
+# Формат json
+[![asciicast](https://asciinema.org/a/c9e0h8aZMJVkEMij.svg)](https://asciinema.org/a/c9e0h8aZMJVkEMij)
+
