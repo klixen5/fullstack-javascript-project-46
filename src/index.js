@@ -4,7 +4,7 @@ import parse from './parsers.js'
 import buildDiff from './buildDiff.js'
 import formatters from './formatters.js'
 
-const genDiff = (filepath1, filepath2, format) => {
+const genDiff = (filepath1, filepath2, format = 'stylish') => {
     const path1 = path.resolve(filepath1)
     const path2 = path.resolve(filepath2)
     const data1 = fs.readFileSync(path1, 'utf-8')

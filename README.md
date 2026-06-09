@@ -10,3 +10,6 @@
 
 # YAML
 [![asciicast](https://asciinema.org/a/OV7TDrbJ8Os5dy1s.svg)](https://asciinema.org/a/OV7TDrbJ8Os5dy1s)
+
+# Глобокое сравнение json и yaml
+[![asciicast](https://asciinema.org/a/tlUVGHGSYZOAJNCy.svg)](https://asciinema.org/a/tlUVGHGSYZOAJNCy)
